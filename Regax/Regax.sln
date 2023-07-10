@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regax", "Regax\Regax.csproj", "{52795D03-8E28-40D5-93B7-4E61E3D0027F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52795D03-8E28-40D5-93B7-4E61E3D0027F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52795D03-8E28-40D5-93B7-4E61E3D0027F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52795D03-8E28-40D5-93B7-4E61E3D0027F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52795D03-8E28-40D5-93B7-4E61E3D0027F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C40D55AD-0110-4F2B-917C-348EDF4247EA}
+	EndGlobalSection
+EndGlobal
