@@ -9,6 +9,7 @@
             Console.WriteLine("1. Regex Exmaple");
             Console.WriteLine("2. Validate Name");
             Console.WriteLine("3. Validate Last Name");
+            Console.WriteLine("4. Validate Phone Number");
             RegexEx regexEx = new RegexEx();
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
@@ -25,6 +26,11 @@
                     Console.WriteLine("Enter Last Name");
                     string lName = Console.ReadLine();
                     regexEx.CheckLastName(lName);
+                    break;
+                case 4:
+                    Console.WriteLine("Enter Phone Number");
+                    string pNumber = Console.ReadLine();
+                    regexEx.MoblieNo(pNumber);
                     break;
                 default:
                     break;

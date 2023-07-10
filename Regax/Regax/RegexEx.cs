@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Regax
 {
-    
+
     public class RegexEx
     {
         static string pattern = "^cen$";
@@ -30,7 +31,7 @@ namespace Regax
         public void CheckName(string name)
         {
             string namePtr = "^[A-Z][a-z]{3,}$";
-            if (Regex.IsMatch(name,namePtr))
+            if (Regex.IsMatch(name, namePtr))
             {
                 Console.WriteLine("String is match the pattern");
             }
@@ -43,6 +44,18 @@ namespace Regax
         {
             string namePtr = "^[A-Z][a-z]{3,}$";
             if (Regex.IsMatch(lName, namePtr))
+            {
+                Console.WriteLine("String is match the pattern");
+            }
+            else
+            {
+                Console.WriteLine("String is dose not match the pattern");
+            }
+        }
+        public void MoblieNo(string phoneNo)
+        {
+            string phPtr = "^[0-9]{2}[ ][0-9]{10}$";
+            if (Regex.IsMatch(phoneNo, phPtr))
             {
                 Console.WriteLine("String is match the pattern");
             }
