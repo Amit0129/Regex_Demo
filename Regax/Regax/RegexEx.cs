@@ -39,5 +39,17 @@ namespace Regax
                 Console.WriteLine("String is dose not match the pattern");
             }
         }
+        public void CheckLastName(string lName)
+        {
+            string namePtr = "^[A-Z][a-z]{3,}$";
+            if (Regex.IsMatch(lName, namePtr))
+            {
+                Console.WriteLine("String is match the pattern");
+            }
+            else
+            {
+                Console.WriteLine("String is dose not match the pattern");
+            }
+        }
     }
 }
