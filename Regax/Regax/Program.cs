@@ -6,8 +6,22 @@
         //
         static void Main(string[] args)
         {
+            Console.WriteLine("1. Regex Exmaple");
+            Console.WriteLine("2. Validate Name");
             RegexEx regexEx = new RegexEx();
-            regexEx.MyRegex();
+            int choice = Convert.ToInt32(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+                    regexEx.MyRegex();
+                    break;
+                case 2:
+                    regexEx.CheckName("Amit");
+                    break;
+                default:
+                    break;
+            }
+            
         }
     }
 }

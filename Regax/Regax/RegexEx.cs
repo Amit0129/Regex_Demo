@@ -27,5 +27,17 @@ namespace Regax
                 Console.WriteLine("String is dose not match the pattern");
             }
         }
+        public void CheckName(string name)
+        {
+            string namePtr = "^[A-Z][a-z]{3,}$";
+            if (Regex.IsMatch(name,namePtr))
+            {
+                Console.WriteLine("String is match the pattern");
+            }
+            else
+            {
+                Console.WriteLine("String is dose not match the pattern");
+            }
+        }
     }
 }
